@@ -7,6 +7,29 @@ body {
   background-color: #282830;
 }
 
+#mapid {
+    min-height: 100%;
+}
+
+.top_banner {
+    padding: .2em
+}
+.top_banner a {
+    color: white;
+    text-decoration: none
+}
+
+#meteo {
+    background: black;
+    color: white;
+    width: 100%
+}
+#meteo > div {
+    display: inline-block;
+    margin: 5%;
+    width: 15%
+}
+
 .conteneur .content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -209,7 +232,7 @@ body {
 }
 
 .conteneur .content #main-wrapper-bottom .station {
-  width: 50vw;
+  width: 46vw;
   height: 75vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -243,6 +266,55 @@ body {
   display: -ms-flexbox;
   display: flex;
   font-family: 'Montserrat', sans-serif;
+}
+
+.conteneur .content #applications {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100vw;
+  height: 70vh;
+}
+
+.conteneur .content #applications .sub-applications {
+  width: 100vw;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.conteneur .content #applications .sub-applications .app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2vh 4vw;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.conteneur .content #applications .sub-applications .app img {
+  width: 30vw;
+  height: 20vh;
 }
 
 .conteneur .content #square {
