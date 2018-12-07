@@ -1,10 +1,9 @@
 const apiKey = '5408392934524859aa613473648be097';
 const main = document.querySelector('main');
-const sourceSelector = document.querySelector('#sourceSelector');
-const defaultSource = 'the-washington-post';
 
 
-//au load de la page -> updateNews
+
+//au load de la page -> démare sw
 window.addEventListener('load', async e => {
     if ('serviceWorker' in navigator) {
         try {
