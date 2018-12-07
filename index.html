@@ -1,19 +1,62 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>API Tests</title>
+    <title>LCD</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.min.js"></script>
+    <script src="main.js"></script>
 </head>
+
 <body>
-    <main>
-        <h1>APIs Tests</h1>
-        <a href="wikipedia">Wikipedia</a>
-        <a href="meteo">Meteo</a>
-        <a href="map">Carte</a>
-    </main>
-    <script type="text/javascript" src="main.js"></script>
+    <section class="conteneur">
+        <article class="content">
+            <div id="head">
+                <div id="hour">
+                    <h2 id="hour_text">20:59</h2>
+                </div>
+                <div id="temp">...</div>
+                <div id="days_left">...</div>
+                <div id="wind"><p id="wind_text"></p> <img src="images/windstorm.png"></div>
+                <div id="banner">
+                    <p id="nombre">48</p>
+                    <div id="vertical-lines">
+                        <hr id="ligne">
+                        <hr id="ligne">
+                        <hr id="ligne">
+                        <hr id="ligne">
+                        <hr id="ligne">
+                        <hr id="ligne">
+                        <hr id="ligne">
+                        <hr id="ligne">
+                        <hr id="ligne">
+                        <hr id="ligne">
+                        <hr id="ligne">
+                        <hr id="ligne">
+                        <hr id="ligne">
+                        <hr id="ligne">
+                    </div>
+                    <p id="sols">SOLS RESTANTS</p>
+                </div>
+            </div>
+            <section id="main-wrapper-bottom">
+                <a href="station.html">
+                    <div class="station">
+                        <p>STATION</p><img src="images/home.png">
+                    </div>
+                </a>
+                <a href="explorer.html">
+                    <div class="station">
+                        <p>EXPLORER</p><img src="images/explorer.png">
+                    </div>
+                </a>
+            </section>
+        </article>
+    </section>
 </body>
+
 </html>
