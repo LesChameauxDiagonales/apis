@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<style>
+
+body
+{
+  position: relative;
+  margin : 0;
+  width: 100%;
+  min-height : 100vh;
+  font-size: 20px;
+}
+#container {
+  top : 0;
+  bottom : 0;
+  left : 0;
+  right : 0;
+  position: fixed;
+  pointer-events: none;
+
+}
+#confetti{
+  top : 0;
+  bottom : 0;
+  left : 0;
+  right : 0;
+  position: fixed;
+  width: 100%;
+  min-height : 100vh;
+  z-index: -1
+}
+#pinata{
+	width: 5vw;
+	height : 10vh;
+	position: absolute;
+
+}
+</style>
+    <head>
+        <meta charset="utf-8">
+        <title>Confetti</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <body>
+    	
+
+		<img src="pinata_fortnite.jpg" id="pinata">
+        <div id ="container">
+        	
+        	<canvas id="confetti"></canvas>
+		</div>
+
+
+		
+        <script src="confetti.js"></script>
+
+    </body>
+</html>
