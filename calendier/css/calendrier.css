@@ -1,0 +1,262 @@
+body{
+	font-family: Roboto;
+	background-image: linear-gradient(135deg, #db9999, #5052a3);
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	margin: 4% ; 
+	align-items: center;
+}
+
+header p{
+	font-size: 32px;
+	font-weight: bold;
+	color: #89644;
+}
+
+.semaine{
+	display: flex;
+	justify-content: space-between;
+}
+.semaine p{
+	border: 2px solid black ;
+	width: calc(100%/7); 
+	padding:3%;
+	text-align: center;
+	color: black;
+}
+
+
+header button{
+	border: none;
+	background-color: rgba(150, 50, 100, 0.4);
+	padding: 20px 30px;
+	border-radius: 10px;
+	transition: all 0.3s ease;
+}
+
+header button:hover{
+	background-color: rgba(150, 50, 100, 0.9);
+	cursor: pointer;
+	color: white;
+}
+
+
+#boutton_vide{
+opacity: 0;
+}
+
+.gif_-1{
+	 height:550px;
+    width:550px;
+    background: url('jpg/animation-gif-nuit.jpg');
+    margin:auto; 
+}
+.gif_-1:hover{
+    height:550px;
+    width:550px;
+    background: url('gif/animation-gif-nuit.gif');
+    margin:auto; /*position the [div] on the center*/
+}
+
+
+.gif_1{
+	 height:400px;
+    width:600px;
+    background: url('jpg/roux_vincent_cinemagraph.jpg');
+    margin:auto; 
+}
+.gif_1:hover{
+    height:400px;
+    width:600px;
+    background: url('gif/roux_vincent_cinemagraph.gif');
+    margin:auto; /*position the [div] on the center*/
+}
+
+.gif_2{
+	 height:270px;
+    width:480px;
+    background: url('jpg/bateau_vert.jpg');
+    margin:auto; 
+}
+.gif_2:hover{
+    height:270px;
+    width:480px;
+    background: url('gif/bateau_vert.gif');
+    margin:auto; /*position the [div] on the center*/
+}
+
+.gif_3{
+	 height:270px;
+    width:480px;
+    background: url('jpg/bottle_flip.jpg');
+    margin:auto; 
+}
+.gif_3:hover{
+    height:270px;
+    width:480px;
+    background: url('gif/bottle_flip.gif');
+    margin:auto; /*position the [div] on the center*/
+}
+
+.gif_4{
+	 height:460px;
+    width:460px;
+    background: url('jpg/licorne_bear.jpg');
+    margin:auto; 
+}
+.gif_4:hover{
+    height:460px;
+    width:460px;
+    background: url('gif/licorne_bear.gif');
+    margin:auto; /*position the [div] on the center*/
+}
+
+.gif_5{
+	 height:492px;
+    width:276px;
+    background: url('jpg/dab.jpg');
+    margin:auto; 
+}
+.gif_5:hover{
+    height:492px;
+    width:276px;
+    background: url('gif/dab.gif');
+    margin:auto; /*position the [div] on the center*/
+}
+
+.gif_6{
+	 height:360px;
+    width:540px;
+    background: url('jpg/nathan_boisson.jpg');
+    margin:auto; 
+}
+.gif_6:hover{
+    height:360px;
+    width:540px;
+    background: url('gif/nathan_boisson.gif');
+    margin:auto; /*position the [div] on the center*/
+}
+
+.gif_7{
+	 height:324px;
+    width:576px;
+    background: url('jpg/video_troll_nuit.jpg');
+    margin:auto; 
+}
+.gif_7:hover{
+    height:324px;
+    width:576px;
+    background: url('gif/video_troll_nuit.gif');
+    margin:auto; /*position the [div] on the center*/
+}
+
+.gif_8{
+	 height:324px;
+    width:576px;
+    background: url('jpg/autonme.jpg');
+    margin:auto; 
+}
+.gif_8:hover{
+    height:324px;
+    width:576px;
+    background: url('gif/autonme.gif');
+    margin:auto; /*position the [div] on the center*/
+}
+
+.gif_9{
+	 height:450px;
+    width:253px;
+    background: url('jpg/pluie.jpg');
+    margin:auto; 
+}
+.gif_9:hover{
+    height:450px;
+    width:253px;
+    background: url('gif/pluie.gif');
+    margin:auto; /*position the [div] on the center*/
+}
+
+.gif_10{
+	 height:408px;
+    width:408px;
+    background: url('jpg/code.jpg');
+    margin:auto; 
+}
+.gif_10:hover{
+    height:408px;
+    width:408px;
+    background: url('gif/code.gif');
+    margin:auto; /*position the [div] on the center*/
+}
+
+.gif_11{
+	 height:320px;
+    width:550px;
+    background: url('jpg/lunette_noire.jpg');
+    margin:auto; 
+}
+.gif_11:hover{
+    height:320px;
+    width:550px;
+    background: url('gif/lunette_noire.gif');
+    margin:auto; /*position the [div] on the center*/
+}
+
+.gif_12{
+	 height:400px;
+    width:400px;
+    background: url('jpg/merry-christmas-animated-tree-6.jpg');
+    margin:auto; 
+}
+.gif_12:hover{
+    height:400px;
+    width:400px;
+    background: url('gif/merry-christmas-animated-tree-6.gif');
+    margin:auto; /*position the [div] on the center*/
+}
+
+
+
+.smooth:hover{
+	background-color: black;
+	color: white;transition: 
+}
+.smooth{
+	transition: all 0.4s ease;
+}
+
+#jour{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+footer{
+	display: flex;	
+	justify-content: space-between;
+	margin:1% 1% 1% 1%;
+}
+
+
+footer button{
+	border: none;
+	background-color: rgba(150, 50, 100, 0.4);
+	padding: 20px 30px;
+	border-radius: 10px;
+	transition: all 0.3s ease;
+}
+
+footer button:hover{
+	background-color: rgba(150, 50, 100, 0.9);
+	cursor: pointer;
+	color: white;
+}
+
+footer p{
+	font-size: 32px;
+	font-weight: bold;
+	color: #89644;
+}

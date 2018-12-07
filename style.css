@@ -30,6 +30,12 @@ body {
     width: 15%
 }
 
+#bottom {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
 .conteneur .content {
   display: -webkit-box;
   display: -ms-flexbox;
